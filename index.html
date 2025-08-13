@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Website-assignment</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid mt-2 mb-2">
+            <a class="navbar-brand ms-lg-5 text-center" id="logo" href="">Fine Oak</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars" style="color: #b88e58;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto  me-5">
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#" style="color: #b88e58;">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/car1.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Bringing Style And Comfort For<br>Customer Satisfaction</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/car2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Affordable Solutions For Better Living</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/car3.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>We Bring Ideas To Life</h1>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- ABOUT US -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-6 mt-5">
+                <h1>Welcome To our Website</h1>
+                <p>This Website is created by <b style="color: maroon;">ZARYAB</b></p>
+            </div>
+            <div class="col-sm-6 mt-5">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                    dolorum saepe magnam natus perferendis corrupti tenetur quidem suscipit eaque blanditiis corporis
+                    veniam molestias qui culpa veritatis officiis eum. Doloribus quos minus quas reprehenderit! Ad
+                    provident sunt totam culpa tenetur? Libero maxime molestiae cumque excepturi.</p>
+                <p class="mb-5">Eveniet tempora a nisi aut debitis! Recusandae dolores vero autem
+                    expedita nihil asperiores maxime modi ducimus nemo dicta nulla dolore? Inventore necessitatibus non
+                    laboriosam eos quod dignissimos soluta sunt id fugiat debitis nam omnis? A ullam minima excepturi
+                    nulla totam necessitatibus illum modi exercitationem blanditiis quaerat at fugit ad eveniet ipsum
+                    error quod sit cumque impedit!</p>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div class="container mt-5">
+        <h1 class="text-center mt-5">What We Offer</h1>
+        <div class="row mt-5">
+            <div class="col-sm">
+                <div class="card mb-3">
+                    <div class="row">
+                        <div class="col-sm-5 ">
+                            <img src="imgs/card1.jpg" alt="" class="img-fluid" style="height: 100%;">
+                        </div>
+                        <div class="col-sm-7 mt-4 mb-3">
+                            <h4>Decor Design</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam pariatur modi
+                                praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum
+                                architecto rerum error.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <img src="imgs/card2.webp" alt="" class="img-fluid" style="height: 100%;">
+                        </div>
+                        <div class="col-sm-7 mt-4 mb-3">
+                            <h4>Interior Design</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam pariatur modi
+                                praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum
+                                architecto rerum error.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-sm">
+                <div class="card mb-3">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <img src="imgs/card3.jpg" alt="" class="img-fluid" style="height: 100%;">
+                        </div>
+                        <div class="col-sm-7 mt-4">
+                            <h4>Residential Design</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam pariatur modi
+                                praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum
+                                architecto rerum error.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <img src="imgs/card4.webp" alt="" class="img-fluid" style="height: 100%;">
+                        </div>
+                        <div class="col-sm-7 mt-4">
+                            <h4>Commercial Design</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam pariatur modi
+                                praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum
+                                architecto rerum error.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- portfolio/gallery -->
+    <div class="container mt-5">
+        <h1 class="text-center mt-5">Portfolio/Gallery</h1>
+        <div class="row mt-5">
+            <div class="col-sm-3 mt-3">
+                <img src="imgs/ver1.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-3 mt-3">
+                <img src="imgs/ver2.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-3 mt-3">
+                <img src="imgs/ver3.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-3 mt-3">
+                <img src="imgs/ver4.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-6">
+                <img src="imgs/hor1.avif" alt="" class="img-fluid">
+            </div>
+            <div class="col-6">
+                <img src="imgs/hor2.avif" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- clients -->
+    <div class="container mt-5">
+        <h1 class="text-center mt-5">Our Clients</h1>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto <br> provident qui tempore
+            natus quos quibusdam soluta at.</p>
+        <div class="row mt-5 text-center">
+            <div class="col-sm-3 mt-3">
+                <img src="imgs/c1.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-3 mt-3">
+                <img src="imgs/c2.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-3 mt-3">
+                <img src="imgs/c3.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-3 mt-3">
+                <img src="imgs/c4.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- why us -->
+    <div style="background-color: #E5EAEF;">
+        <div class="container mt-5">
+            <h1 class="text-center mt-5">Why Choose US</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto <br> provident qui
+                tempore natus quos quibusdam soluta at.</p>
+            <div class="row mt-5">
+                <div class="col-sm-6 mt-3">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img src="imgs/1.PNG" alt="">
+                        </div>
+                        <div class="col-sm-10">
+                            <h5>Consectetur Adipisicing</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore
+                                natus quos quibusdam soluta at.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 mt-3">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img src="imgs/2.PNG" alt="">
+                        </div>
+                        <div class="col-sm-10">
+                            <h5>Laboriosam Quod Dignissimos</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore
+                                natus quos quibusdam soluta at.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm-6 mt-3">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img src="imgs/3.PNG" alt="">
+                        </div>
+                        <div class="col-sm-10">
+                            <h5>Aliquid Dolorum Saepe</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore
+                                natus quos quibusdam soluta at.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 mt-3">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img src="imgs/4.PNG" alt="">
+                        </div>
+                        <div class="col-sm-10">
+                            <h5>Asperiores Maxime Modi</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore
+                                natus quos quibusdam soluta at.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm-6 mt-3">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img src="imgs/5.PNG" alt="">
+                        </div>
+                        <div class="col-sm-10">
+                            <h5>Eveniet Tempora Anisi</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore
+                                natus quos quibusdam soluta at.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 mt-3">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img src="imgs/6.PNG" alt="">
+                        </div>
+                        <div class="col-sm-10">
+                            <h5>Libero Maxime Molestiae</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore
+                                natus quos quibusdam soluta at.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonials -->
+    <div class="container mt-5">
+        <h1 class="text-center">testimonial</h1>
+        <div class="row mt-5">
+            <div class="col-sm-4">
+                <div class="card text-center mb-3">
+                    <img src="imgs/t1.png" alt="" style="width: 100px;height: 100px;" class="offset-4 mt-3">
+                    <b>"They turned my house into a warm, elegant, and inviting place I adore."</b>
+                    <p class="mt-4">~~~Steve Jobs</p>
+                    <i class="mb-3">CEO , Apple</i>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-center mb-3">
+                    <img src="imgs/t2.png" alt="" style="width: 100px;height: 100px;" class="offset-4 mt-3">
+                    <b>"They created my office to be modern, functional, and welcoming too."</b>
+                    <p class="mt-4">~~~Mark Zuckerberg</p>
+                    <i class="mb-3">CEO , Facebook</i>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <img src="imgs/t3.png" alt="" style="width: 100px;height: 100px;" class="offset-4 mt-3">
+                    <b>"They made my apartment feel stylish, bright, and truly comfortable."</b>
+                    <p class="mt-4">~~~Elon Musk</p>
+                    <i class="mb-3">CEO , Tesla</i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid mt-5 py-5" style="background-color: #88C8DC;">
+        <div class="row text-center mt-3">
+            <div class="col"></div>
+            <div class="col">
+                <i class="fa-brands fa-twitter" style="font-size: x-large;"></i>
+                <i class="fa-brands fa-square-facebook" style="font-size: x-large;"></i>
+                <i class="fa-brands fa-github-alt" style="font-size: x-large;"></i>
+                <i class="fa-brands fa-linkedin-in" style="font-size: x-large;"></i>
+                <i class="fa-brands fa-youtube" style="font-size: x-large;"></i>
+            </div>
+            <div class="col"></div>
+        </div>
+        <p class="text-center mt-3">© 2025 <a href="https://zaryab-soomro.web.app/"
+                style="text-decoration: none; color: maroon;">Zaryab</a>. All Rights Reserved. <br> Designed & Developed
+            with by Zaryab Soomro</p>
+    </div>
+</body>
+</html>
