@@ -51,7 +51,12 @@ p {
 .card {
     border: 1px solid #b88e58;
 }
-
+#gallery img {
+    cursor: pointer;
+}
+#footer i{
+    cursor: pointer;
+}
 ::selection {
     background-color: black;
     color: #b88e58;
