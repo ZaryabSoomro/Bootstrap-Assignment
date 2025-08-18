@@ -25,6 +25,9 @@ p {
 .nav-link:hover {
     color: #b88e58;
 }
+.navbar-toggler {
+    border: 2px solid white;
+}
 .carousel {
     height: 100vh;
 }
