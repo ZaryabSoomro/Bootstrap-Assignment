@@ -46,6 +46,11 @@ p {
 }
 #footer i{
     cursor: pointer;
+    transition: ease-out 0.3s;
+}
+#footer i:hover{
+    transform: scale(1.2);
+    color: #b88e58;
 }
 ::selection {
     background-color: black;
