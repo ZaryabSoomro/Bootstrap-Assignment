@@ -41,11 +41,15 @@ p {
     top: 60%;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
+#portfolio img{
+    border: 2px solid #b88e58;
+}
 .card {
     border: 1px solid #b88e58;
 }
 #gallery img {
     cursor: pointer;
+    border: 2px solid #b88e58;
 }
 #footer i{
     cursor: pointer;
@@ -54,6 +58,15 @@ p {
 #footer i:hover{
     transform: scale(1.2);
     color: #b88e58;
+}
+.btn{
+    border: 1px solid #b88e58;
+    background-color: white;
+    color: #b88e58;
+}
+.btn:hover{
+    background-color: #b88e58;
+    color: white;
 }
 ::selection {
     background-color: black;
