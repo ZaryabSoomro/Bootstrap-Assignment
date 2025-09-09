@@ -39,7 +39,8 @@ p {
 }
 .carousel-caption {
     top: 60%;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    color: white;
+    text-shadow: 2px 2px 5px #b88e58;
 }
 #portfolio img{
     border: 2px solid #b88e58;
